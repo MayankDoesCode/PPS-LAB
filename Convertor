@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{   
+    float x;
+    printf("Enter Distance between      two cities\n");
+    scanf("%f",&x);
+    printf("Distance in metres %f",(x*1000));
+    printf("\nDistance in Feet %f", (x*3280.84));
+    printf("\nDistance in Inches %f", (x*39370.1));
+    printf("\nDistance in Centimetres %f", (x*100000));
+
+    return 0;
+}
