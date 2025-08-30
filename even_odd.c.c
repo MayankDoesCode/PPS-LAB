@@ -6,8 +6,10 @@ int main()
     scanf("%d",&a);
     if(a%2==0)
     printf("Even Number%d ",a);
-    else
+    else if(a%2==1)
     printf("Odd Number%d ",a);
+    else
+    printf("Zero"):
     return 0;
     
 }
